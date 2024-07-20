@@ -66,4 +66,4 @@ arr2_2 = np.array([list(range(i, i+3)) for i in [2, 4, 6]])
  [6 7 8]]
  ```
  arr2_1和arr2_2的区别在于，arr2_1中的元素是range对象，而arr2_2中的元素是列表;但numpy会自动将range对象转换为列表。两种方式在将range对象转换为列表时，一个使用python内置函数，另一个使用numpy的tolist()方法。两者在效率上没有区别，但使用tolist()方法更加方便，所以推荐使用tolist()方法；显式地将range对象转换为列表，主要好处是增加代码的可读性。
- 5）
+ 5）使用nump有内置函数生成数组：
