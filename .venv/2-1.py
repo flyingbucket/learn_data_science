@@ -42,3 +42,5 @@ arr8 = np.array([[5, 6], [7, 8]])
 # 矩阵乘法
 arr9 = arr7 @ arr8
 print(arr9)
+
+'''第四部分'''
